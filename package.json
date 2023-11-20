@@ -2,13 +2,14 @@
   "name": "heliverse-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
+    "start":"NODE_OPTIONS='--experimental-specifier-resolution=node' node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Shubhangini Sharma",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
